@@ -8,6 +8,13 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json"
+    },
+    {
+      "id": "zimage",
+      "name": "Z-Image Turbo",
+      "channel": "test",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json"
     }
   ]
 }
