@@ -590,6 +590,15 @@ Expected install root:
 ~/ZImage-Trainer
 ```
 
+Current reference install:
+
+```text
+live WSL distro: NymphsCore
+path:            /home/nymph/ZImage-Trainer
+```
+
+That live install is working and should be used as the practical reference when designing the module repo and Manager page.
+
 Category:
 
 ```text
@@ -606,6 +615,14 @@ This module can internally clone or wrap upstream:
 
 ```text
 ostris/ai-toolkit
+```
+
+The live reference checkout currently uses:
+
+```text
+path:   /home/nymph/ZImage-Trainer/ai-toolkit
+origin: https://github.com/ostris/ai-toolkit.git
+branch: main
 ```
 
 But the Manager should only see:
@@ -641,10 +658,15 @@ loras/
 jobs/
 logs/
 models/
+.node20/
+.venv-ztrain/
 ai-toolkit/venv/
 ai-toolkit/node_modules/
+ai-toolkit/ui/node_modules/
 ai-toolkit/aitk_db.db
 ```
+
+The live reference install already contains real datasets, LoRAs, jobs, and models, so the first migration pass should copy only source/wrapper/config pieces, never the training output.
 
 Manager page should preserve the serious Z-Image Trainer work from main:
 
