@@ -310,3 +310,414 @@ ai-toolkit
 WORBI is first because it is the cleanest external module test.
 
 The others should be migrated carefully from the existing NymphsCore Manager scripts and existing installed backend folders.
+
+---
+
+## Guidance For The Other Modules
+
+The long-term rule stays the same:
+
+```text
+one clean repo per module
+one nymph.json per module
+one registry entry per module
+module-specific Manager page content
+```
+
+The registry should eventually list every official module, but each module should be prepared in its own repo first.
+
+### Z-Image Turbo
+
+Planned repo:
+
+```text
+github.com/nymphnerds/zimage
+```
+
+Expected install root:
+
+```text
+~/Z-Image
+```
+
+Category:
+
+```text
+runtime
+```
+
+Purpose:
+
+```text
+Z-Image Turbo image generation runtime.
+```
+
+The module repo should own:
+
+```text
+nymph.json
+README.md
+scripts/install_zimage.sh
+scripts/zimage_status.sh
+scripts/zimage_start.sh
+scripts/zimage_stop.sh
+scripts/zimage_open.sh
+scripts/zimage_logs.sh
+scripts/zimage_fetch_models.sh
+scripts/zimage_smoke_test.sh
+```
+
+Manager page should focus on:
+
+- runtime readiness
+- model availability
+- Nunchaku/diffusers/runtime state
+- model fetch
+- smoke test
+- server URL
+- logs
+
+Existing NymphsCore sources to migrate from:
+
+```text
+Manager/scripts/install_nymphs2d2.sh
+Manager/scripts/zimage_backend_overlay/
+Manager/scripts/runtime_tools_status.sh
+Manager/scripts/smoke_test_server.sh
+Manager/scripts/prefetch_models.sh
+```
+
+Example future registry entry:
+
+```json
+{
+  "id": "zimage",
+  "name": "Z-Image Turbo",
+  "channel": "experimental",
+  "trusted": true,
+  "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json"
+}
+```
+
+### TRELLIS.2
+
+Planned repo:
+
+```text
+github.com/nymphnerds/trellis
+```
+
+Expected install root:
+
+```text
+~/TRELLIS.2
+```
+
+Category:
+
+```text
+runtime
+```
+
+Purpose:
+
+```text
+TRELLIS.2 3D generation runtime with Nymphs GGUF adapter support.
+```
+
+The module repo should own:
+
+```text
+nymph.json
+README.md
+scripts/install_trellis.sh
+scripts/trellis_status.sh
+scripts/trellis_start.sh
+scripts/trellis_stop.sh
+scripts/trellis_open.sh
+scripts/trellis_logs.sh
+scripts/trellis_fetch_models.sh
+scripts/trellis_smoke_test.sh
+scripts/trellis_repair_adapter.sh
+```
+
+Manager page should focus on:
+
+- TRELLIS readiness
+- GGUF quant selection
+- support model availability
+- adapter repair
+- model fetch
+- smoke test
+- server URL
+- logs
+
+Existing NymphsCore sources to migrate from:
+
+```text
+Manager/scripts/install_trellis.sh
+Manager/scripts/trellis_adapter/
+Manager/scripts/runtime_tools_status.sh
+Manager/scripts/smoke_test_server.sh
+Manager/scripts/prefetch_models.sh
+```
+
+TRELLIS may internally depend on upstream repos such as:
+
+```text
+microsoft/TRELLIS.2
+Aero-Ex/ComfyUI-Trellis2-GGUF
+city96/ComfyUI-GGUF
+```
+
+But the Manager should only see the Nymphs module repo and its manifest.
+
+Example future registry entry:
+
+```json
+{
+  "id": "trellis",
+  "name": "TRELLIS.2",
+  "channel": "experimental",
+  "trusted": true,
+  "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json"
+}
+```
+
+### Brain
+
+Planned repo:
+
+```text
+github.com/nymphnerds/brain
+```
+
+Expected install root:
+
+```text
+~/Nymphs-Brain
+```
+
+Category:
+
+```text
+service
+```
+
+Purpose:
+
+```text
+Local coding/model orchestration stack: local LLM, MCP, WebUI, model manager, and optional remote router support.
+```
+
+The module repo should own source/wrapper files, not the installed runtime output.
+
+Good repo shape:
+
+```text
+nymph.json
+README.md
+scripts/install_brain.sh
+scripts/brain_status.sh
+scripts/brain_start.sh
+scripts/brain_stop.sh
+scripts/brain_open.sh
+scripts/brain_logs.sh
+scripts/brain_update.sh
+templates/
+```
+
+Do not commit runtime output:
+
+```text
+venv/
+mcp-venv/
+open-webui-venv/
+models/
+open-webui-data/
+secrets/
+logs/
+```
+
+Manager page should preserve the serious page work from main:
+
+- LLM status
+- MCP status
+- WebUI status
+- local model
+- remote model
+- OpenRouter key state
+- live monitor
+- context/VRAM/tokens
+- start/stop
+- open WebUI
+- manage models
+- update stack
+- logs
+
+Existing NymphsCore sources to migrate from:
+
+```text
+Manager/scripts/install_nymphs_brain.sh
+Manager/scripts/monitor_query.sh
+Manager/scripts/remote_llm_mcp/
+Manager/apps/NymphsCoreManager main-branch Brain page/viewmodel/service methods
+```
+
+Example future registry entry:
+
+```json
+{
+  "id": "brain",
+  "name": "Brain",
+  "channel": "experimental",
+  "trusted": true,
+  "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json"
+}
+```
+
+### AI Toolkit
+
+Planned repo:
+
+```text
+github.com/nymphnerds/ai-toolkit
+```
+
+Expected install root:
+
+```text
+~/ZImage-Trainer
+```
+
+Category:
+
+```text
+trainer
+```
+
+Purpose:
+
+```text
+AI Toolkit sidecar for Z-Image Turbo LoRA training.
+```
+
+This module can internally clone or wrap upstream:
+
+```text
+ostris/ai-toolkit
+```
+
+But the Manager should only see:
+
+```text
+github.com/nymphnerds/ai-toolkit
+```
+
+The module repo should own:
+
+```text
+nymph.json
+README.md
+scripts/install_ai_toolkit.sh
+scripts/ai_toolkit_status.sh
+scripts/ai_toolkit_start.sh
+scripts/ai_toolkit_stop.sh
+scripts/ai_toolkit_open.sh
+scripts/ai_toolkit_logs.sh
+scripts/ai_toolkit_create_job.sh
+scripts/ai_toolkit_start_job.sh
+scripts/ai_toolkit_stop_job.sh
+scripts/ai_toolkit_caption_with_brain.sh
+templates/
+adapters/
+```
+
+Do not commit user/runtime output:
+
+```text
+datasets/
+loras/
+jobs/
+logs/
+models/
+ai-toolkit/venv/
+ai-toolkit/node_modules/
+ai-toolkit/aitk_db.db
+```
+
+Manager page should preserve the serious Z-Image Trainer work from main:
+
+- datasets
+- LoRAs
+- captions
+- Brain caption helper
+- presets
+- adapter version
+- sample prompt
+- steps
+- checkpoints
+- learning rate
+- rank
+- low VRAM mode
+- add/start/stop/delete job
+- queue state
+- progress
+- logs
+
+Existing NymphsCore sources to migrate from:
+
+```text
+Manager/scripts/install_zimage_trainer_aitk.sh
+Manager/scripts/zimage_trainer_status.sh
+Manager/scripts/ztrain_run_config.sh
+Manager/scripts/zimage_caption_brain.sh
+Manager/scripts/zimage_caption_brain.py
+Manager/scripts/compare_zimage_loras.py
+Manager/apps/NymphsCoreManager main-branch Z-Image Trainer page/viewmodel/service methods
+```
+
+Example future registry entry:
+
+```json
+{
+  "id": "ai-toolkit",
+  "name": "AI Toolkit",
+  "channel": "experimental",
+  "trusted": true,
+  "manifest_url": "https://raw.githubusercontent.com/nymphnerds/ai-toolkit/main/nymph.json"
+}
+```
+
+---
+
+## When To Add A Module To This Registry
+
+Only add a module to `nymphs.json` when:
+
+- the module repo exists
+- the module has a root `nymph.json`
+- the manifest URL works as a raw GitHub URL
+- the status script exits `0` even when not installed
+- install/start/stop/open/logs scripts are at least safe stubs
+- the Manager can show the module as available without crashing
+
+For early work, use:
+
+```json
+"channel": "test"
+```
+
+For modules that are usable but still evolving, use:
+
+```json
+"channel": "experimental"
+```
+
+Reserve:
+
+```json
+"channel": "stable"
+```
+
+for modules that are safe for normal users.
