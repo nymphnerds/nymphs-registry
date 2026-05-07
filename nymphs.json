@@ -15,6 +15,13 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json"
+    },
+    {
+      "id": "trellis",
+      "name": "TRELLIS.2",
+      "channel": "test",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json"
     }
   ]
 }
