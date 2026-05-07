@@ -136,7 +136,7 @@ github.com/nymphnerds/worbi
 github.com/nymphnerds/zimage
 github.com/nymphnerds/trellis
 github.com/nymphnerds/brain
-github.com/nymphnerds/ai-toolkit
+github.com/nymphnerds/lora
 ```
 
 Each module repo should own:
@@ -199,6 +199,7 @@ start
 stop
 open
 logs
+uninstall
 update
 configure
 ```
@@ -214,9 +215,58 @@ start
 stop
 open
 logs
+uninstall
 ```
 
 For complex modules like AI Toolkit or Brain, the module page can use many more commands later.
+
+### Uninstall Contract
+
+Every official module should provide an uninstall entrypoint once it is installable:
+
+```text
+scripts/<module>_uninstall.sh
+```
+
+The uninstall script must support:
+
+```text
+--dry-run   print exactly what would be deleted and preserved
+--yes       required before actual deletion
+--purge     delete everything for that module, including user data
+```
+
+Default uninstall should remove the installed runtime/program files and return the module to an available/not-installed state, while preserving user data where that matters.
+
+Examples of data to preserve by default:
+
+```text
+Z-Image     -> outputs, logs
+TRELLIS     -> outputs, logs
+Brain       -> models, Open WebUI data, MCP config/data, secrets, logs
+LoRA        -> datasets, jobs, generated LoRAs, config, logs
+WORBI       -> data, projects, config, logs
+```
+
+`--purge` is the explicit "delete everything" mode. The Manager should only call it after showing the exact delete list and getting a stronger confirmation from the user.
+
+The manifest should expose the uninstall entrypoint and policy:
+
+```json
+{
+  "manager": {
+    "uninstall": "scripts/lora_uninstall.sh"
+  },
+  "uninstall": {
+    "supports_purge": true,
+    "requires_confirmation": true,
+    "dry_run_arg": "--dry-run",
+    "confirm_arg": "--yes",
+    "purge_arg": "--purge",
+    "preserve_by_default": ["datasets", "loras", "jobs", "config", "logs"]
+  }
+}
+```
 
 ---
 
