@@ -29,6 +29,13 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json"
+    },
+    {
+      "id": "lora",
+      "name": "LoRA",
+      "channel": "test",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json"
     }
   ]
 }
