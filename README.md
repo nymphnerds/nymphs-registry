@@ -104,6 +104,12 @@ logs:         ~/worbi/logs
     {
       "id": "worbi",
       "name": "WORBI",
+      "short_name": "WB",
+      "category": "tool",
+      "packaging": "archive",
+      "summary": "Local-first worldbuilding app for projects, lore, characters, and creative planning.",
+      "install_root": "$HOME/worbi",
+      "sort_order": 50,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json"
@@ -119,6 +125,12 @@ Field meanings:
 - `modules`: list of trusted modules
 - `id`: stable module id used by the Manager
 - `name`: display name
+- `short_name`: compact display label for navigation/cards
+- `category`: broad UI grouping, such as `service`, `image`, `training`, `3d`, or `tool`
+- `packaging`: module source/package type, such as `repo` or `archive`
+- `summary`: short card description that can be shown before install
+- `install_root`: expected install root inside the managed Linux user home
+- `sort_order`: stable card/navigation ordering
 - `channel`: release lane such as `test`, `stable`, `experimental`
 - `trusted`: whether this entry is trusted by NymphsCore
 - `manifest_url`: raw URL to the module repo's `nymph.json`

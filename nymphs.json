@@ -1,10 +1,16 @@
 {
   "registry_version": 1,
-  "updated": "2026-05-07",
+  "updated": "2026-05-10",
   "modules": [
     {
       "id": "worbi",
       "name": "WORBI",
+      "short_name": "WB",
+      "category": "tool",
+      "packaging": "archive",
+      "summary": "Local-first worldbuilding app for projects, lore, characters, and creative planning.",
+      "install_root": "$HOME/worbi",
+      "sort_order": 50,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json"
@@ -12,6 +18,12 @@
     {
       "id": "zimage",
       "name": "Z-Image Turbo",
+      "short_name": "ZI",
+      "category": "image",
+      "packaging": "repo",
+      "summary": "Local Z-Image Turbo image generation backend using the pinned Nunchaku runtime.",
+      "install_root": "$HOME/Z-Image",
+      "sort_order": 20,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json"
@@ -19,6 +31,12 @@
     {
       "id": "trellis",
       "name": "TRELLIS.2",
+      "short_name": "TR",
+      "category": "3d",
+      "packaging": "repo",
+      "summary": "Local TRELLIS.2 GGUF 3D generation backend with model fetch and smoke-test hooks.",
+      "install_root": "$HOME/TRELLIS.2",
+      "sort_order": 40,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json"
@@ -26,6 +44,12 @@
     {
       "id": "brain",
       "name": "Brain",
+      "short_name": "BR",
+      "category": "service",
+      "packaging": "repo",
+      "summary": "Local assistant, llama-server, Open WebUI, and MCP orchestration stack.",
+      "install_root": "$HOME/Nymphs-Brain",
+      "sort_order": 10,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json"
@@ -33,6 +57,12 @@
     {
       "id": "lora",
       "name": "LoRA",
+      "short_name": "LO",
+      "category": "training",
+      "packaging": "repo",
+      "summary": "AI Toolkit powered Z-Image Turbo LoRA training sidecar for datasets, jobs, and generated adapters.",
+      "install_root": "$HOME/ZImage-Trainer",
+      "sort_order": 30,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json"
