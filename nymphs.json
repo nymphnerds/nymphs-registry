@@ -8,7 +8,26 @@
       "short_name": "WB",
       "category": "tool",
       "packaging": "archive",
-      "summary": "Local-first worldbuilding app for projects, lore, characters, and creative planning.",
+      "summary": "Local-first worldbuilding workspace for lore, characters, locations, timelines, notes, and project planning.",
+      "overview": {
+        "body": "WORBI is a browser-based worldbuilding tool packaged as a Nymph module. It is designed for writers, game developers, solo creators, and teams who need a local project bible for fictional worlds and production notes.",
+        "works_with": [
+          "Standalone browser workflow",
+          "NymphsCore Manager",
+          "Game writing and planning workflows",
+          "Blender/Unity/Unreal projects as external reference material"
+        ],
+        "requirements": [
+          "NymphsCore base WSL runtime",
+          "Local WebView2 or browser access to the WORBI web app"
+        ],
+        "links": [
+          {
+            "label": "WORBI module source",
+            "url": "https://github.com/nymphnerds/worbi"
+          }
+        ]
+      },
       "install_root": "$HOME/worbi",
       "sort_order": 50,
       "channel": "test",
@@ -21,7 +40,7 @@
       "short_name": "ZI",
       "category": "image",
       "packaging": "repo",
-      "summary": "Local Z-Image Turbo image generation backend using the pinned Nunchaku runtime.",
+      "summary": "Local Z-Image Turbo image generation backend using the Nunchaku runtime.",
       "install_root": "$HOME/Z-Image",
       "sort_order": 20,
       "channel": "test",
