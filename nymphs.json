@@ -19,6 +19,7 @@
         ],
         "requirements": [
           "NymphsCore base WSL runtime",
+          "Nymphs Brain local AI stack",
           "Local WebView2 or browser access to the WORBI web app"
         ],
         "links": [
@@ -34,7 +35,7 @@
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json",
       "manifest_version": "6.3.4",
-      "manifest_hash": "c0de62243d48248a6711deb0003bbf655856aa9078ea72e739f467a85e589bba"
+      "manifest_hash": "c3f268d0970a7c5260a256efaf1b6bc27648c3415299f23be1f8c025497afec0"
     },
     {
       "id": "zimage",
