@@ -1,6 +1,6 @@
 {
-  "registry_version": 3,
-  "updated": "2026-05-13",
+  "registry_version": 4,
+  "updated": "2026-05-14",
   "modules": [
     {
       "id": "worbi",
@@ -48,7 +48,9 @@
       "sort_order": 20,
       "channel": "test",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
+      "manifest_version": "0.1.5",
+      "manifest_hash": "b68e9e112ad440e82dd7f76acf784e14e9ab13ee950a64b2a6ef15d0e3137ccc"
     },
     {
       "id": "trellis",
@@ -61,7 +63,9 @@
       "sort_order": 40,
       "channel": "test",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
+      "manifest_version": "0.1.14",
+      "manifest_hash": "418229892f1b0d76cda7e833ae4df69b8bbf9e38aeb58ec70ad2fc4f2848eaab"
     },
     {
       "id": "brain",
