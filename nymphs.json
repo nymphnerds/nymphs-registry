@@ -79,8 +79,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json",
-      "manifest_version": "0.1.5",
-      "manifest_hash": "491257d31705ff7bf71af8d350bb8538b5a36a13d945df55b5fca5bf634932ed"
+      "manifest_version": "0.1.6",
+      "manifest_hash": "e596c8159bef85b9199dcf8f202a39f6e2f85a3d6972926342000eeac0274fb4"
     },
     {
       "id": "lora",
