@@ -1,5 +1,5 @@
 {
-  "registry_version": 7,
+  "registry_version": 8,
   "updated": "2026-05-15",
   "modules": [
     {
@@ -79,8 +79,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json",
-      "manifest_version": "0.1.1",
-      "manifest_hash": "162d3359aa3de10fea3fa3948fd942b23762b0ac95a2065cce997ab7b90699dd"
+      "manifest_version": "0.1.2",
+      "manifest_hash": "c6ea0c4d2dbcab35bed6d5c0d4c27f9b8e861d98e9b1f778222dc57f9d1b5858"
     },
     {
       "id": "lora",
