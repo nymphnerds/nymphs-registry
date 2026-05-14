@@ -1,6 +1,6 @@
 {
-  "registry_version": 5,
-  "updated": "2026-05-14",
+  "registry_version": 6,
+  "updated": "2026-05-15",
   "modules": [
     {
       "id": "worbi",
@@ -34,8 +34,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json",
-      "manifest_version": "6.3.17",
-      "manifest_hash": "e57d73ce4499b338084b558e46082aa47325850d6fe8c1f8bc43e5c5192cdb99"
+      "manifest_version": "6.3.18",
+      "manifest_hash": "71ac98bc22cc578252b4e61f9cba32c41fee7d7adddb3fc0099c39468a5b28e5"
     },
     {
       "id": "zimage",
