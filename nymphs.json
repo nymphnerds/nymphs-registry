@@ -1,5 +1,5 @@
 {
-  "registry_version": 18,
+  "registry_version": 19,
   "updated": "2026-05-15",
   "modules": [
     {
@@ -94,8 +94,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.26",
-      "manifest_hash": "ded30d6125b903ed1179231cc215c173c6cb1c87d5c021096564de0937ef99ec"
+      "manifest_version": "0.1.27",
+      "manifest_hash": "5cb4c6004665a23e5116792f36cb4c935f913c8774a040c81406a92b73974a7f"
     }
   ]
 }
