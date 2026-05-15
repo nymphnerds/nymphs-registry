@@ -649,14 +649,14 @@ github.com/nymphnerds/ai-toolkit
 Expected install root:
 
 ```text
-~/ZImage-Trainer
+~/LoRA
 ```
 
 Current reference install:
 
 ```text
 live WSL distro: NymphsCore
-path:            /home/nymph/ZImage-Trainer
+path:            /home/nymph/LoRA
 ```
 
 That live install is working and should be used as the practical reference when designing the module repo and Manager page.
@@ -682,7 +682,7 @@ ostris/ai-toolkit
 The live reference checkout currently uses:
 
 ```text
-path:   /home/nymph/ZImage-Trainer/ai-toolkit
+path:   /home/nymph/LoRA/ai-toolkit
 origin: https://github.com/ostris/ai-toolkit.git
 branch: main
 ```

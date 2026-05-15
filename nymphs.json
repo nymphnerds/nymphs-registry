@@ -1,5 +1,5 @@
 {
-  "registry_version": 12,
+  "registry_version": 13,
   "updated": "2026-05-15",
   "modules": [
     {
@@ -89,13 +89,13 @@
       "category": "training",
       "packaging": "repo",
       "summary": "AI Toolkit powered Z-Image Turbo LoRA training sidecar for datasets, jobs, and generated adapters.",
-      "install_root": "$HOME/ZImage-Trainer",
+      "install_root": "$HOME/LoRA",
       "sort_order": 30,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.20",
-      "manifest_hash": "3acfdd35ec23c1cf6729b88b3821529883dd465116fdbdee8a24469bbaf58b77"
+      "manifest_version": "0.1.21",
+      "manifest_hash": "f577d2e31f1000b1f4b20072b3f0328752d7065967cfce2d0082643dc68b27ad"
     }
   ]
 }
