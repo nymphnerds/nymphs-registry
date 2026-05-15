@@ -94,8 +94,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.33",
-      "manifest_hash": "3e10c7a3aceb0822422b2862210c6ff7864fd09d24d6d4caaadedbf9e30b8e51"
+      "manifest_version": "0.1.34",
+      "manifest_hash": "c97a233c0c221660e9c3be11d9fdbf829df398374649b849b7eeb7189e7c66c3"
     }
   ]
 }
