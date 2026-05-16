@@ -1,6 +1,6 @@
 {
-  "registry_version": 20,
-  "updated": "2026-05-15",
+  "registry_version": 21,
+  "updated": "2026-05-16",
   "modules": [
     {
       "id": "worbi",
@@ -34,8 +34,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json",
-      "manifest_version": "6.3.18",
-      "manifest_hash": "71ac98bc22cc578252b4e61f9cba32c41fee7d7adddb3fc0099c39468a5b28e5"
+      "manifest_version": "6.3.22",
+      "manifest_hash": "748df0525debf4ad73eb4f5bfb1cf30abac76711f5d569840c1150e3fd03bf23"
     },
     {
       "id": "zimage",
@@ -49,8 +49,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
-      "manifest_version": "0.1.5",
-      "manifest_hash": "b68e9e112ad440e82dd7f76acf784e14e9ab13ee950a64b2a6ef15d0e3137ccc"
+      "manifest_version": "0.1.9",
+      "manifest_hash": "6406ec37982c68b202df6ac2df5f718873ef56ada9add1bfe2eec4ba30843b46"
     },
     {
       "id": "trellis",
@@ -64,8 +64,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.14",
-      "manifest_hash": "418229892f1b0d76cda7e833ae4df69b8bbf9e38aeb58ec70ad2fc4f2848eaab"
+      "manifest_version": "0.1.18",
+      "manifest_hash": "953f82673ee323c23e57af4759f2ff06ab96e85ff8be51281453aa3c8021fca8"
     },
     {
       "id": "brain",
@@ -79,8 +79,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json",
-      "manifest_version": "0.1.7",
-      "manifest_hash": "8c4ed9db04440b01d19ff6f50a4553455cdf7254011e8d9f4e09253083a8bd60"
+      "manifest_version": "0.1.9",
+      "manifest_hash": "7ad31d54f5484a7e48d7caa5873344fb01b0a97e93cc6b1a860e9544445e5527"
     },
     {
       "id": "lora",
@@ -94,8 +94,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.34",
-      "manifest_hash": "c97a233c0c221660e9c3be11d9fdbf829df398374649b849b7eeb7189e7c66c3"
+      "manifest_version": "0.1.35",
+      "manifest_hash": "d642b1ca43ca9793a750015aceba73d929b3e834678f76035645bf9e47e39114"
     }
   ]
 }
