@@ -75,7 +75,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with Gradio testing and future Blender addon API hooks.",
       "overview": {
-        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token.\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
+        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token. BRIA access form: https://huggingface.co/briaai/RMBG-2.0\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -107,7 +107,7 @@
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
       "manifest_version": "0.1.0",
-      "manifest_hash": "1785fd790460b5dcda384a36c588bde42a62fd6d29f32a802fbadccbd7772991"
+      "manifest_hash": "cc0ff11358e3433154310e2d56e40ab8e2e2af53d47eb9a26d93849ddebc4b94"
     },
     {
       "id": "brain",
