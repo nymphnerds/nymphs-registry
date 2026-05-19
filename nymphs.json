@@ -1,5 +1,5 @@
 {
-  "registry_version": 25,
+  "registry_version": 26,
   "updated": "2026-05-19",
   "modules": [
     {
@@ -42,6 +42,7 @@
       "name": "Z-Image Turbo",
       "short_name": "ZI",
       "category": "image",
+      "kind": "image",
       "packaging": "repo",
       "summary": "Local Z-Image Turbo image generation backend using the Nunchaku runtime.",
       "install_root": "$HOME/Z-Image",
