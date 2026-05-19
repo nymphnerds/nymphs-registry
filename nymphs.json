@@ -1,5 +1,5 @@
 {
-  "registry_version": 28,
+  "registry_version": 29,
   "updated": "2026-05-19",
   "modules": [
     {
@@ -76,7 +76,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with Gradio testing and future Blender addon API hooks.",
       "overview": {
-        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form link below to be completed with the same Hugging Face account used by the module token.\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
+        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token: https://huggingface.co/briaai/RMBG-2.0\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -108,7 +108,7 @@
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
       "manifest_version": "0.1.0",
-      "manifest_hash": "c1c9118503b47efffd9cbdb801f2614b6bbd0d8284a358ddbedfb5f1d156d262"
+      "manifest_hash": "834c9183c79ad2ad56941dd3183d2ec3b9e6053aa8a225610d908e78529b1cd8"
     },
     {
       "id": "brain",
