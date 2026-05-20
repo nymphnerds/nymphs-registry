@@ -108,8 +108,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.14",
-      "manifest_hash": "c87d595ebf6129b15a0cc6dea3743f7757a4a6e0943fa92386799a0db86cac76"
+      "manifest_version": "0.1.15",
+      "manifest_hash": "d78f2f0b576870954c005eb1c9dfb542c8cbcddecc648e5310d98dee413f94fb"
     },
     {
       "id": "brain",
