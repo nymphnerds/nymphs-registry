@@ -1,5 +1,5 @@
 {
-  "registry_version": 33,
+  "registry_version": 34,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -50,8 +50,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
-      "manifest_version": "0.1.10",
-      "manifest_hash": "b6134823b48846ce69b399c62b1c19722b1408258c4a9ea1f0e3ca28a1869d96"
+      "manifest_version": "0.1.11",
+      "manifest_hash": "aa1aa70c8af746f989f7860818934c00e3ddb8494fb61d46f9fc6c32614fc672"
     },
     {
       "id": "trellis",
@@ -65,8 +65,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.20",
-      "manifest_hash": "1d60852438575f37989d2118da0bae4abe9e7df644f546c25fe98ecc979069e0"
+      "manifest_version": "0.1.21",
+      "manifest_hash": "52a8ca0c349ef9b4138c6dfdc74c4b174f94793cca9de199095d8125610317b6"
     },
     {
       "id": "pixal3d",
@@ -107,8 +107,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.4",
-      "manifest_hash": "1801c51d18d334d73c064bb562c0ff8b5b8755711d40ebd00dfde3a8b6701f8b"
+      "manifest_version": "0.1.5",
+      "manifest_hash": "aa374b5defff320713b6321fc5a929771d00f4eb86cb1fc6aee73632670e32a2"
     },
     {
       "id": "brain",
