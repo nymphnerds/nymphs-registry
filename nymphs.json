@@ -76,7 +76,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with Gradio testing and a shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nInstall provisions the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv if it is missing. TRELLIS model weights are not required for Pixal3D.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's current Pixal3D release is MIT licensed for Tencent-published code, parameters, weights, and documentation; see LICENSE and NOTICE.\n- Third-party components keep their original licenses, including dinov2 under Apache-2.0 and TRELLIS.2, Direct3D-S2, and MoGe under MIT.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token: https://huggingface.co/briaai/RMBG-2.0\n- BRIA may carry separate non-commercial/access terms; commercial BRIA use may require a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nOpen Gradio launches the official Pixal3D app in the Manager WebView. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -112,8 +112,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.21",
-      "manifest_hash": "120baea8053b3c9a015bbcaac2df7015a5f2492be4f01fa8a3bf795e72618cdc"
+      "manifest_version": "0.1.22",
+      "manifest_hash": "a1d9a7cd95bd409ab5cbd0371ade325675117a6ac8b4e8b6ac4a8e07a01c6d31"
     },
     {
       "id": "brain",
