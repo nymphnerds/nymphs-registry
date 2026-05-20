@@ -1,5 +1,5 @@
 {
-  "registry_version": 49,
+  "registry_version": 50,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -112,8 +112,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.26",
-      "manifest_hash": "9041e82f995ff9beac4198d2adf77a825519e22aae0b800b1913a46e40383d09"
+      "manifest_version": "0.1.27",
+      "manifest_hash": "31251de9710b29d368dfcada5ed3b7c0608a0f72544204fad3a0e4dc7503a04b"
     },
     {
       "id": "brain",
