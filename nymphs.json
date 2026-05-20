@@ -76,12 +76,12 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with Gradio testing and a shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nInstall provisions the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv if it is missing. TRELLIS model weights are not required for Pixal3D.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token: https://huggingface.co/briaai/RMBG-2.0\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
+        "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nInstall provisions the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv if it is missing. TRELLIS model weights are not required for Pixal3D.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's current Pixal3D release is MIT licensed for Tencent-published code, parameters, weights, and documentation; see LICENSE and NOTICE.\n- Third-party components keep their original licenses, including dinov2 under Apache-2.0 and TRELLIS.2, Direct3D-S2, and MoGe under MIT.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token: https://huggingface.co/briaai/RMBG-2.0\n- BRIA may carry separate non-commercial/access terms; commercial BRIA use may require a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
           "Shared TRELLIS.2/Pixal3D runtime venv; installed automatically if missing",
-          "Academic/non-commercial Pixal3D use",
+          "Pixal3D MIT license and third-party notices reviewed",
           "Hugging Face token with BRIA RMBG-2.0 access accepted"
         ],
         "links": [
@@ -90,8 +90,12 @@
             "url": "https://github.com/TencentARC/Pixal3D"
           },
           {
-            "label": "Pixal3D model license",
-            "url": "https://huggingface.co/TencentARC/Pixal3D/blob/main/LICENSE"
+            "label": "Pixal3D MIT license",
+            "url": "https://github.com/TencentARC/Pixal3D/blob/master/LICENSE"
+          },
+          {
+            "label": "Pixal3D notice",
+            "url": "https://github.com/TencentARC/Pixal3D/blob/master/NOTICE"
           },
           {
             "label": "BRIA RMBG-2.0 access form",
@@ -108,8 +112,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.20",
-      "manifest_hash": "3e6b1e48d2ed3be9e451059556091fe8a2b60df42f8d8cc40e4577d07d1ebe87"
+      "manifest_version": "0.1.21",
+      "manifest_hash": "120baea8053b3c9a015bbcaac2df7015a5f2492be4f01fa8a3bf795e72618cdc"
     },
     {
       "id": "brain",
