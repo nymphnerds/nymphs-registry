@@ -1,5 +1,5 @@
 {
-  "registry_version": 41,
+  "registry_version": 43,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -59,14 +59,14 @@
       "short_name": "TR",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local TRELLIS.2 GGUF 3D generation backend with model fetch and smoke-test hooks.",
+      "summary": "Local TRELLIS.2 GGUF 3D backend with shared Pixal3D-ready runtime, model fetch, and smoke-test hooks.",
       "install_root": "$HOME/TRELLIS.2",
       "sort_order": 40,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.23",
-      "manifest_hash": "38106d05c5631c0d945985b7619c1b08f6af436c8e44667f9fec322a5470d88f"
+      "manifest_version": "0.1.24",
+      "manifest_hash": "c5cdf25ad3205f647b478bf5cf0c0fde3c0ac373c465db2546575300b01a9004"
     },
     {
       "id": "pixal3d",
@@ -74,7 +74,7 @@
       "short_name": "PX",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local Pixal3D image-to-3D module with Gradio testing and future Blender addon API hooks.",
+      "summary": "Local Pixal3D image-to-3D module with Gradio testing and a shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
         "body": "Pixal3D is a research image-to-3D module for generating textured GLB assets from a single image.\n\nBefore installing or fetching model files, review the upstream terms:\n- Tencent's Pixal3D license is academic-only and says not to use Pixal3D for commercial or production purposes.\n- Tencent's Pixal3D license says Pixal3D is not intended for use within the European Union.\n- The BRIA RMBG-2.0 background-removal model is gated on Hugging Face and requires the access form to be completed with the same Hugging Face account used by the module token: https://huggingface.co/briaai/RMBG-2.0\n- BRIA lists the Hugging Face weights as non-commercial; commercial BRIA use requires a separate BRIA agreement/API.\n\nNymphsCore Manager must show these terms before install/fetch and require explicit user acknowledgement before downloading gated or restricted assets.",
         "requirements": [
@@ -107,8 +107,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.10",
-      "manifest_hash": "15f02e646ea3ae9ea5d1e074d657a19731e3112edb27929df797034c9c7ebde8"
+      "manifest_version": "0.1.12",
+      "manifest_hash": "8c100f8d96baca98842da67658171e53abcd223645e60409ee640d7de842b731"
     },
     {
       "id": "brain",
