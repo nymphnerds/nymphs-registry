@@ -1,5 +1,5 @@
 {
-  "registry_version": 48,
+  "registry_version": 49,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -74,9 +74,9 @@
       "short_name": "PX",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local Pixal3D image-to-3D module with a NymphsCore app shell and shared TRELLIS.2/Pixal3D runtime install.",
+      "summary": "Local Pixal3D image-to-3D module with Official Ui, Nymphs Ui, and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D generates textured GLB assets from a single image.\n\nOpen Gradio launches the NymphsCore Pixal3D app in the Manager WebView, with the upstream app still available at /official. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nOfficial Ui launches the upstream Pixal3D custom web UI in the Manager WebView. Nymphs Ui launches the NymphsCore Pixal3D app on the same local Gradio server/API. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -112,8 +112,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.25",
-      "manifest_hash": "4dd55c61357d2420b2ed05be54caa265f52ae7b19a025fbbc6ef03cf69dc6727"
+      "manifest_version": "0.1.26",
+      "manifest_hash": "9041e82f995ff9beac4198d2adf77a825519e22aae0b800b1913a46e40383d09"
     },
     {
       "id": "brain",
