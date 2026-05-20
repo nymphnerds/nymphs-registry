@@ -1,5 +1,5 @@
 {
-  "registry_version": 45,
+  "registry_version": 46,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -74,9 +74,9 @@
       "short_name": "PX",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local Pixal3D image-to-3D module with Gradio testing and a shared TRELLIS.2/Pixal3D runtime install.",
+      "summary": "Local Pixal3D image-to-3D module with a NymphsCore app shell and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D generates textured GLB assets from a single image.\n\nOpen Gradio launches the official Pixal3D app in the Manager WebView. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nOpen Gradio launches the NymphsCore Pixal3D app in the Manager WebView, with the upstream app still available at /official. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -112,8 +112,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.22",
-      "manifest_hash": "a1d9a7cd95bd409ab5cbd0371ade325675117a6ac8b4e8b6ac4a8e07a01c6d31"
+      "manifest_version": "0.1.23",
+      "manifest_hash": "89a74bee261a42fe0302eb31db26b3a80ce3e6ba5a67dc3b522d60bdbd8a954e"
     },
     {
       "id": "brain",
