@@ -1,5 +1,5 @@
 {
-  "registry_version": 32,
+  "registry_version": 33,
   "updated": "2026-05-20",
   "modules": [
     {
@@ -65,8 +65,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.19",
-      "manifest_hash": "fa940632352f746c4d01b092bee0c4ba00016245441678ddbe720f529f07992a"
+      "manifest_version": "0.1.20",
+      "manifest_hash": "1d60852438575f37989d2118da0bae4abe9e7df644f546c25fe98ecc979069e0"
     },
     {
       "id": "pixal3d",
@@ -107,8 +107,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.3",
-      "manifest_hash": "9b61f2365757b4c6d9054fd819d823578fd0667bced20682832e5b4cd8626391"
+      "manifest_version": "0.1.4",
+      "manifest_hash": "1801c51d18d334d73c064bb562c0ff8b5b8755711d40ebd00dfde3a8b6701f8b"
     },
     {
       "id": "brain",
