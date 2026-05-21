@@ -1,5 +1,5 @@
 {
-  "registry_version": 93,
+  "registry_version": 94,
   "updated": "2026-05-21",
   "manager": {
     "id": "nymphscore-manager",
@@ -18,7 +18,7 @@
       "packaging": "archive",
       "summary": "Local-first worldbuilding workspace for lore, characters, locations, timelines, notes, and project planning.",
       "overview": {
-        "body": "WORBI is a browser-based worldbuilding tool packaged as a Nymph module. It is designed for writers, game developers, solo creators, and teams who need a local project bible for fictional worlds and production notes.",
+        "body": "WORBI is a browser-based worldbuilding tool packaged as a Nymph module. It is designed for writers, game developers, solo creators, and teams who need a local project bible for fictional worlds and production notes. WORBI 6.3.24 provisions its local Node.js runtime during Install/Update and starts from that installed runtime path, so Start does not need a user-managed node command on PATH.",
         "works_with": [
           "Standalone browser workflow",
           "NymphsCore Manager",
@@ -42,8 +42,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/worbi/main/nymph.json",
-      "manifest_version": "6.3.22",
-      "manifest_hash": "748df0525debf4ad73eb4f5bfb1cf30abac76711f5d569840c1150e3fd03bf23"
+      "manifest_version": "6.3.24",
+      "manifest_hash": "31f8cc2da3009261d5483450212271d9a7e00c87530c1c96453592c170e234c0"
     },
     {
       "id": "zimage",
