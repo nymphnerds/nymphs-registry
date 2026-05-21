@@ -1,19 +1,6 @@
 {
-  "registry_version": 76,
+  "registry_version": 75,
   "updated": "2026-05-21",
-  "manager": {
-    "id": "nymphscore-manager",
-    "name": "NymphsCore Manager",
-    "version": "0.9.32",
-    "channel": "test",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/main/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "cf6a84137a209d57a0a42b1f4f401a2f97c30815a041d7ebd9fe26d194b6813d",
-    "release_notes": [
-      "Adds a Manager version strip with local and remote versions.",
-      "Shows Current when Manager is up to date and Update when a newer registry artifact is available.",
-      "Update opens the published Manager zip directly for this first test slice."
-    ]
-  },
   "modules": [
     {
       "id": "worbi",
