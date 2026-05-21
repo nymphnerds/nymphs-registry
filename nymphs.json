@@ -1,5 +1,5 @@
 {
-  "registry_version": 87,
+  "registry_version": 88,
   "updated": "2026-05-21",
   "manager": {
     "id": "nymphscore-manager",
@@ -84,7 +84,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with auto-warm/manual-prep NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI auto-starts Warm Up on open, shows a dedicated warmup progress bar, lets users select an image during warmup, and uses a manual Prepare Source / Retry Prep button before Generate Preview unlocks. In 0.1.68 the failed boxed shell has been replaced and tightened: the last usable 0.1.63 UI is backed up in docs/backups, source stays compact, commands are inline Manager-style // buttons, core runtime controls appear first, advanced parameters are collapsed, the Pixal work rail is narrower, and the result/GLB preview fills its vertical area. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI auto-starts Warm Up on open, shows a dedicated warmup progress bar, lets users select an image during warmup, and uses a manual Prepare Source / Retry Prep button before Generate Preview unlocks. In 0.1.69 the failed boxed shell has been replaced and tightened: the last usable 0.1.63 UI is backed up in docs/backups, source stays compact, commands are inline Manager-style // buttons, core runtime controls appear first, advanced parameters are collapsed, the Pixal work rail is locked to 400px, and the result/GLB preview fills its vertical area. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -120,8 +120,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.68",
-      "manifest_hash": "c9e86436a8c03f64c00f7c71d534cf6e40abf3d103793f9ea1cf885e28f941bb"
+      "manifest_version": "0.1.69",
+      "manifest_hash": "eb031bd481a1b3afeb8aa19664bc6e1bc8449a5824dbf25e8ead8ec79c8b4543"
     },
     {
       "id": "brain",
