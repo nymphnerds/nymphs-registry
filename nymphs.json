@@ -1,5 +1,5 @@
 {
-  "registry_version": 80,
+  "registry_version": 81,
   "updated": "2026-05-21",
   "manager": {
     "id": "nymphscore-manager",
@@ -82,9 +82,9 @@
       "short_name": "PX",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local Pixal3D image-to-3D module with optimized NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
+      "summary": "Local Pixal3D image-to-3D module with warmup-gated NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI includes optimized 16 GB run profiles, max-token and texture NAF controls, manual Free Pipeline, and PNG GLB texture export. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI includes a dedicated Warm Up progress bar, warmup-gated source prep and Generate Preview, technical runtime presets, max-token and texture NAF controls, Clear GPU Memory, and PNG GLB texture export. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -120,8 +120,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.60",
-      "manifest_hash": "587a1488e3b6119ba4260ea2833e5a41d6864ee8a824e7700274091f4ac9bd67"
+      "manifest_version": "0.1.61",
+      "manifest_hash": "b361c6360238f4d7a4ef31fc6c47c2cb8ff2dd8d14ca42080f1e80651c1e0e20"
     },
     {
       "id": "brain",
