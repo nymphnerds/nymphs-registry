@@ -13,6 +13,10 @@ nymphs-registry = catalog
 module repo     = actual module
 ```
 
+The registry can also expose the current NymphsCore Manager release through a
+single top-level `manager` entry. This is not a module card and should not be
+placed inside `modules`.
+
 Current registry file:
 
 ```text
@@ -50,6 +54,34 @@ registry
 ```
 
 The Manager should not search all of GitHub or the internet. It should only trust modules listed here.
+
+## Manager Release Entry
+
+The Manager reads this optional top-level entry to show its own update state:
+
+```json
+{
+  "manager": {
+    "id": "nymphscore-manager",
+    "name": "NymphsCore Manager",
+    "manifest_version": "0.9.36",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/<commit>/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "<sha256>",
+    "source_url": "https://github.com/nymphnerds/NymphsCore"
+  }
+}
+```
+
+Release rule:
+
+- build and push the Manager release zip first
+- point `artifact_url` at the commit-pinned zip
+- set `artifact_hash` to the zip SHA-256
+- bump `registry_version`
+- leave `modules` untouched unless a module entry changed
+
+For testing, run an older extracted Manager from a normal Windows folder. Do not
+run from the repo `publish/win-x64` folder when checking that `Update` appears.
 
 ---
 
