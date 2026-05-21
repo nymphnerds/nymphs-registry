@@ -1,5 +1,5 @@
 {
-  "registry_version": 67,
+  "registry_version": 68,
   "updated": "2026-05-21",
   "modules": [
     {
@@ -65,8 +65,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.25",
-      "manifest_hash": "5b76213fffc0eecf59415471d3ac689dc76cf296126a64747c2347331ea02baf"
+      "manifest_version": "0.1.26",
+      "manifest_hash": "e86f44a36078ac3b721e37885cde9c97720601c233a716cdf243743664ac360f"
     },
     {
       "id": "pixal3d",
