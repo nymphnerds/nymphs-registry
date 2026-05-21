@@ -1,16 +1,16 @@
 {
-  "registry_version": 79,
+  "registry_version": 78,
   "updated": "2026-05-21",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "version": "0.9.35",
+    "version": "0.9.34",
     "channel": "test",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/c12675e6aa9e6734653c93ec7a6486f647170365/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "e9ee5133887a94575b59d9dfd2363368f3879a5e98353e3390d5d1df0f5e9b36",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/refs/heads/main/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "af349fffcd87da4fef554d9a99add3232e01f614b07e02336bd024723010b2bd",
     "release_notes": [
       "Fixes Manager startup crash caused by the read-only update action label binding.",
-      "Fetches registry JSON through the GitHub Contents API so update checks avoid raw branch cache lag.",
+      "Uses the refs/heads/main registry URL so update checks do not get stuck behind GitHub raw branch cache.",
       "Update opens the published Manager zip directly for this first test slice."
     ]
   },
