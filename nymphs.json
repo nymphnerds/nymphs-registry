@@ -1,12 +1,12 @@
 {
-  "registry_version": 95,
-  "updated": "2026-05-21",
+  "registry_version": 97,
+  "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.36",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/c4b5f378d3dba78f59dc258d8f77998853d71138/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "664c6830a24ab33d263993e5d3fd3af0324089338599d1ce35fc5bfc342f05ba",
+    "manifest_version": "0.9.37",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/820ca4008f6f1ad344a6ecfcb954c43a320cfc14/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "0f1e2a212d805bb7f3aa03e5bd6c6ad1a7a1489c4a87a2760c147e352c3a6fdf",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
@@ -84,7 +84,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with auto-warm/manual-prep NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI auto-starts Warm Up on open, shows a dedicated warmup progress bar, lets users select an image during warmup, and uses a manual Prepare Source / Retry Prep button before Generate unlocks. In 0.1.74 the failed boxed shell has been replaced and tightened: the last usable 0.1.63 UI is backed up in docs/backups, source preview/drop zone stays square while the original image is contained inside it without clipping, source/run commands are thin compact Manager-style // button strips, run labels are shortened to Generate and Export, core runtime controls appear first, advanced parameters are collapsed, the Pixal work rail is locked to 360px, button-adjacent separator lines are removed, and the result/GLB preview fills its vertical area. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6; 0.1.72 fixed Nymphs custom API FileData path handling for source prep and generation; 0.1.73 made Generate continue into automatic GLB export and load the output in the embedded model-viewer, with explicit final progress states and resize reframing; 0.1.74 removes preview frame rendering and the filmstrip so the full result pane belongs to the interactive model viewer. 0.1.75 hardens warmup/run state, prevents source replacement and GPU-memory clearing during active tasks, preserves runtime settings through export, vendors browser viewer assets locally, shows the prepared image in the existing source pane after Prepare Source, and surfaces generation/export errors in the UI. 0.1.76 adds deeper startup progress, keeps the warm state as Warmed, preserves the current GLB when the same source image is touched again, and makes Warm Up/Clear GPU Memory restart and reconnect the backend when runtime memory settings need a clean process boundary. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
+        "body": "Pixal3D generates textured GLB assets from a single image.\n\nPixal3D opens the NymphsCore custom UI in the Manager WebView. The UI auto-starts Warm Up on open, shows a dedicated warmup progress bar, lets users select an image during warmup, and uses a manual Prepare Source / Retry Prep button before Generate unlocks. In 0.1.74 the failed boxed shell has been replaced and tightened: the last usable 0.1.63 UI is backed up in docs/backups, source preview/drop zone stays square while the original image is contained inside it without clipping, source/run commands are thin compact Manager-style // button strips, run labels are shortened to Generate and Export, core runtime controls appear first, advanced parameters are collapsed, the Pixal work rail is locked to 360px, button-adjacent separator lines are removed, and the result/GLB preview fills its vertical area. The Nymph UI is served directly by the Pixal3D FastAPI app and uses local /api endpoints, avoiding the removed Gradio Server/app.api path in Gradio 6; 0.1.72 fixed Nymphs custom API FileData path handling for source prep and generation; 0.1.73 made Generate continue into automatic GLB export and load the output in the embedded model-viewer, with explicit final progress states and resize reframing; 0.1.74 removes preview frame rendering and the filmstrip so the full result pane belongs to the interactive model viewer. 0.1.75 hardens warmup/run state, prevents source replacement and GPU-memory clearing during active tasks, preserves runtime settings through export, vendors browser viewer assets locally, shows the prepared image in the existing source pane after Prepare Source, and surfaces generation/export errors in the UI. 0.1.76 adds deeper startup progress, keeps the warm state as Warmed, preserves the current GLB when the same source image is touched again, and makes Warm Up/Clear GPU Memory restart and reconnect the backend when runtime memory settings need a clean process boundary. 0.1.77 moves Open GLB and Clear GPU Memory into the top command strip, defaults Use GPU for RMBG on, and stops all Pixal3D module backends when the Nymph UI/WebView unloads. Fetch Models downloads the Pixal3D checkpoints and required helper models into NymphsData. The module uses the shared TRELLIS.2/Pixal3D runtime venv at $HOME/TRELLIS.2/.venv, so TRELLIS.2 and Pixal3D do not build separate native stacks. Pixal3D install also builds its nvdiffrec renderer with the WSL CUDA driver library path so libcuda links correctly. Install/Repair refreshes module files before runtime repair so retries after partial failures cannot leave stale UI or manifest files behind.\n\nLicense and access:\n- Pixal3D is MIT licensed for Tencent-published code, parameters, weights, and documentation.\n- Third-party components keep their own licenses.\n- BRIA RMBG-2.0 is gated on Hugging Face and may have separate access terms. Use the same Hugging Face account for the access form and module token.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -120,8 +120,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.76",
-      "manifest_hash": "45800b67a03b0903fb8bd64ed9e989efc6a69fb7cd1f1ad95e1e6b7ef62a5755"
+      "manifest_version": "0.1.77",
+      "manifest_hash": "c20f9a99382fa3ed41e3c0dd632f17be6275073bf67dbe99a93871af04170b40"
     },
     {
       "id": "brain",
