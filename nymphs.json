@@ -1,5 +1,5 @@
 {
-  "registry_version": 115,
+  "registry_version": 116,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
@@ -110,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.94",
-      "manifest_hash": "1ca246982edd7dc2f8770c099920ba53ccacea67cdcc7b76bbaea967dfdd2032"
+      "manifest_version": "0.1.95",
+      "manifest_hash": "ac37a408dec9b1406be6d6d8bc66ec9fdf84ba1a7f3e2ebc28ad05366b48cc93"
     },
     {
       "id": "brain",
@@ -140,8 +140,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.42",
-      "manifest_hash": "e02c6002de926e400d55f9d7859973ee5f4c458d9b4194521d6503f3e32e8c77"
+      "manifest_version": "0.1.43",
+      "manifest_hash": "be7f1b4385851bd416a4747439f7fbdd347ab2c8b03ebf57db6d5a139ed7af42"
     }
   ]
 }
