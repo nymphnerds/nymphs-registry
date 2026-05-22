@@ -1,5 +1,5 @@
 {
-  "registry_version": 108,
+  "registry_version": 109,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
@@ -84,7 +84,7 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with auto-warm/manual-prep NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D turns one source image into a textured GLB model.\n\nInstall sets up the shared TRELLIS.2/Pixal3D runtime. Model weights are downloaded later with Fetch Models.\n\nNext step before Fetch Models: fill the BRIA RMBG-2.0 Hugging Face access form, then use a Hugging Face token from that same account. Fetch Models downloads BRIA RMBG-2.0 for background removal and will fail without accepted BRIA access.\n\nRecommended first fetch/run: Low VRAM 1024 on 16 GB GPUs.",
+        "body": "Pixal3D turns one source image into a textured GLB model.\n\nInstall sets up the shared TRELLIS.2/Pixal3D runtime. Model weights are downloaded later with Fetch Models.\n\nNEXT STEP: Fill the BRIA form before Fetch Models, then use a Hugging Face token from that same account. Fetch Models downloads BRIA RMBG-2.0 for background removal and will fail without accepted BRIA access.\n\nRecommended first fetch/run: Low VRAM 1024 on 16 GB GPUs.",
         "requirements": [
           "Managed NymphsCore WSL distro",
           "CUDA-capable NVIDIA GPU",
@@ -94,7 +94,7 @@
         ],
         "links": [
           {
-            "label": "Next step: fill BRIA RMBG-2.0 access form",
+            "label": "Fill BRIA form",
             "url": "https://huggingface.co/briaai/RMBG-2.0"
           },
           {
@@ -116,8 +116,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.87",
-      "manifest_hash": "8b9900bdd5c6d72a0c133316cca642eea1c3c3e9e69d7faa36eb82f649c5fa9a"
+      "manifest_version": "0.1.88",
+      "manifest_hash": "c422e5750dc50995e14707f6e30c13d949bc48278c9cce27f7024923360fc220"
     },
     {
       "id": "brain",
