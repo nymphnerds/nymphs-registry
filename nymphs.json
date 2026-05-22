@@ -1,12 +1,12 @@
 {
-  "registry_version": 110,
+  "registry_version": 111,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.43",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/5ca1c19/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "5c06ccf607192ea90dc2357e23a2061d515a3d34564a2545628fc2b6f645af5a",
+    "manifest_version": "0.9.44",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/ef7d0aa/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "f84f460cdd0a0b0737631d901c97a6f04b36877bd65721c5466fd850acdcc09d",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
@@ -84,14 +84,8 @@
       "packaging": "repo",
       "summary": "Local Pixal3D image-to-3D module with auto-warm/manual-prep NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
       "overview": {
-        "body": "Pixal3D turns one source image into a textured GLB model.\n\nInstall sets up the shared TRELLIS.2/Pixal3D runtime. Model weights are downloaded later with Fetch Models.\n\nNEXT STEP: Fill the BRIA form before Fetch Models, then use a Hugging Face token from that same account. Fetch Models downloads BRIA RMBG-2.0 for background removal and will fail without accepted BRIA access.\n\nRecommended first fetch/run: Low VRAM 1024 on 16 GB GPUs.",
-        "requirements": [
-          "Managed NymphsCore WSL distro",
-          "CUDA-capable NVIDIA GPU",
-          "Shared TRELLIS.2/Pixal3D runtime venv; installed automatically if missing",
-          "Pixal3D MIT license and third-party notices reviewed",
-          "Hugging Face token with BRIA RMBG-2.0 access accepted"
-        ],
+        "body": "Pixal3D turns one source image into a textured GLB model.",
+        "requirements": [],
         "links": [
           {
             "label": "Fill BRIA form",
@@ -116,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.89",
-      "manifest_hash": "1f5a7f3542c58e49038f94650b7da7df42b296ae7c6848680751ffe404a1b28f"
+      "manifest_version": "0.1.90",
+      "manifest_hash": "7e7b2162551235bea844ae2ed96986017c528db0a97901a332ddec2403f78946"
     },
     {
       "id": "brain",
