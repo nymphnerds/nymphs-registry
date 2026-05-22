@@ -1,12 +1,12 @@
 {
-  "registry_version": 113,
+  "registry_version": 114,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.46",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/06e02d4/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "83f7dadfbf2f6dfc791bafdf21861ec78e90af62f6c7be1989c45ee981ec12cb",
+    "manifest_version": "0.9.47",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/7436f7a/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "3edf85a480f4761fca809e4a6ec14b1f3bf12458e847183cb1f95d66962c3bcf",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
@@ -110,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.92",
-      "manifest_hash": "144c99237486a67577f2629ee9a14532dc7dcd60f6a7f91dec39f2075a30dde5"
+      "manifest_version": "0.1.93",
+      "manifest_hash": "ed8f99b81a19126d2ac6c1e09b3a3b36cd7d845899406b57bd921be67d05fe50"
     },
     {
       "id": "brain",
@@ -140,8 +140,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/lora/main/nymph.json",
-      "manifest_version": "0.1.41",
-      "manifest_hash": "b3b49a4242300b82b61d8d39bda6dbe08bbc53a1ace4529e42c9f5c13f09c5c8"
+      "manifest_version": "0.1.42",
+      "manifest_hash": "e02c6002de926e400d55f9d7859973ee5f4c458d9b4194521d6503f3e32e8c77"
     }
   ]
 }
