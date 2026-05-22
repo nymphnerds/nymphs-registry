@@ -1,5 +1,5 @@
 {
-  "registry_version": 117,
+  "registry_version": 118,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
@@ -110,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.96",
-      "manifest_hash": "a4582cfb8e9e51c01eb5303033c6c704fb3689f4d60dab64fb85029564367b93"
+      "manifest_version": "0.1.97",
+      "manifest_hash": "4606101595761ed24d44b36717f8292f52518dea2e623149e37ad4bea0317946"
     },
     {
       "id": "brain",
