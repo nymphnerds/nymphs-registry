@@ -1,5 +1,5 @@
 {
-  "registry_version": 118,
+  "registry_version": 119,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
@@ -84,7 +84,7 @@
       "packaging": "repo",
       "summary": "Pixal3D generates high-fidelity textured 3D assets from a single image.",
       "overview": {
-        "body": "Install sets up the local Pixal3D runtime. Fetch Models downloads the Pixal3D checkpoints and helper models. Before Fetch Models, fill the BRIA RMBG-2.0 form with the same Hugging Face account used for your token.",
+        "body": "Install sets up the local Pixal3D runtime. The install options below are for building FlashAttention during setup. Auto-detect is recommended. If the build runs out of memory, retry with lower Max jobs or NVCC threads.\n\nFetch Models downloads the Pixal3D checkpoints and helper models. Before Fetch Models, fill the BRIA RMBG-2.0 form with the same Hugging Face account used for your token.",
         "requirements": [],
         "links": [
           {
