@@ -1,5 +1,5 @@
 {
-  "registry_version": 114,
+  "registry_version": 115,
   "updated": "2026-05-22",
   "manager": {
     "id": "nymphscore-manager",
@@ -82,9 +82,9 @@
       "short_name": "PX",
       "category": "3d",
       "packaging": "repo",
-      "summary": "Local Pixal3D image-to-3D module with auto-warm/manual-prep NymphsCore UI profiles and shared TRELLIS.2/Pixal3D runtime install.",
+      "summary": "Pixal3D generates high-fidelity textured 3D assets from a single image.",
       "overview": {
-        "body": "Pixal3D turns one source image into a textured GLB model.",
+        "body": "Install sets up the local Pixal3D runtime. Fetch Models downloads the Pixal3D checkpoints and helper models. Before Fetch Models, fill the BRIA RMBG-2.0 form with the same Hugging Face account used for your token.",
         "requirements": [],
         "links": [
           {
@@ -110,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.93",
-      "manifest_hash": "ed8f99b81a19126d2ac6c1e09b3a3b36cd7d845899406b57bd921be67d05fe50"
+      "manifest_version": "0.1.94",
+      "manifest_hash": "1ca246982edd7dc2f8770c099920ba53ccacea67cdcc7b76bbaea967dfdd2032"
     },
     {
       "id": "brain",
