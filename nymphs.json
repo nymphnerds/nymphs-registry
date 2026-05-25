@@ -1,5 +1,5 @@
 {
-  "registry_version": 190,
+  "registry_version": 191,
   "updated": "2026-05-25",
   "manager": {
     "id": "nymphscore-manager",
@@ -58,8 +58,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
-      "manifest_version": "0.1.75",
-      "manifest_hash": "e053dd2b634f615224b2b4ef7de29f9c07796df935a4552f9ade496cb534c70f"
+      "manifest_version": "0.1.76",
+      "manifest_hash": "14016bb0aa2b84e11cc6821f79a1c5c65bd6d88872c8d4bdaaeecc93a3aeb83f"
     },
     {
       "id": "trellis",
