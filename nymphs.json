@@ -1,12 +1,12 @@
 {
-  "registry_version": 199,
+  "registry_version": 200,
   "updated": "2026-05-25",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.49",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/deda4c87a2333d20e2b3efa0feb6630eabbfaaf5/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "454f5712c42de478ddd20b9d512cadf6a6c966ab4496074a7e8da3299a496807",
+    "manifest_version": "0.9.50",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/ad2c05db5a8adfc600490bde1d797662cd611d07/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "412ef9f26fd345c37be40b7979fdc2760d41410752d4f7c362af857135f24253",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
@@ -58,8 +58,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
-      "manifest_version": "0.1.82",
-      "manifest_hash": "f9ae3fb624a5adf8feba9402784782f0bea5384c144549a0a6999f6bdcfac716"
+      "manifest_version": "0.1.83",
+      "manifest_hash": "1cd9eb0b602f89c6e5df9cd10479752c2afdb14762b1d404e3435dfe284b0955"
     },
     {
       "id": "trellis",
