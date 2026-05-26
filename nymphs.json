@@ -58,8 +58,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
-      "manifest_version": "0.1.89",
-      "manifest_hash": "91ae4b85518d77a8a8985f6d8f3f46dfc3cff630077c1537b4c30e0203dbcd02"
+      "manifest_version": "0.1.90",
+      "manifest_hash": "b31aac94dc188a17495b891d05787a6b5240c4f7aac3be7627f6eebbc44dc47a"
     },
     {
       "id": "trellis",
