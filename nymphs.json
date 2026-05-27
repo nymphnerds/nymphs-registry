@@ -1,6 +1,6 @@
 {
-  "registry_version": 215,
-  "updated": "2026-05-26",
+  "registry_version": 216,
+  "updated": "2026-05-27",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
@@ -112,6 +112,22 @@
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
       "manifest_version": "0.1.109",
       "manifest_hash": "ba63a34d3ee331754f4616e32c8856976a2ba52122f8d042b90f9937c888f945"
+    },
+    {
+      "id": "nymphs-world",
+      "name": "Nymphs World",
+      "short_name": "NW",
+      "category": "tool",
+      "kind": "worldbuilding",
+      "packaging": "repo",
+      "summary": "Page-first worldbuilding vault for game worlds, Markdown pages, wikilinks, backlinks, references, and production readiness.",
+      "install_root": "$HOME/Nymphs-World",
+      "sort_order": 48,
+      "channel": "test",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-world/main/nymph.json",
+      "manifest_version": "0.1.0",
+      "manifest_hash": "9c6d275210ab5e261bfb4d2fdac0aabea3f3a41645a14f26661cb44d32d9e8e9"
     },
     {
       "id": "brain",
