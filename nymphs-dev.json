@@ -1,0 +1,22 @@
+{
+  "registry_version": 1,
+  "updated": "2026-05-27",
+  "modules": [
+    {
+      "id": "nymphs-world",
+      "name": "Nymphs World",
+      "short_name": "NW",
+      "category": "tool",
+      "kind": "worldbuilding",
+      "packaging": "repo",
+      "summary": "Private development build of the Nymphs World page-first worldbuilding vault.",
+      "install_root": "$HOME/Nymphs-World",
+      "sort_order": 48,
+      "channel": "dev",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-world/main/nymph.json",
+      "manifest_version": "0.1.0",
+      "manifest_hash": "d99a48f81ba86ce83f40efcce33fcb993e8b185ef19a709539a4d1691de88fff"
+    }
+  ]
+}
