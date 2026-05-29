@@ -1,5 +1,5 @@
 {
-  "registry_version": 236,
+  "registry_version": 237,
   "updated": "2026-05-29",
   "manager": {
     "id": "nymphscore-manager",
@@ -125,8 +125,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json",
-      "manifest_version": "0.1.12",
-      "manifest_hash": "8fa41d88f61113ac9ef2654186aba09c556c42a441a44ff428d8bc081fd2cce8"
+      "manifest_version": "0.1.13",
+      "manifest_hash": "85c340b265e73720ddeda6bf8a557beb3d7c9dd55cc974316840dadbb20201e0"
     },
     {
       "id": "lora",
