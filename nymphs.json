@@ -1,12 +1,12 @@
 {
-  "registry_version": 231,
+  "registry_version": 232,
   "updated": "2026-05-29",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.59",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/a7d3abd/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "18197d6054004379faf2943b93f2db34cabbe5790d47149318ae6f7e4763dea3",
+    "manifest_version": "0.9.60",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/62c3599/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "06f94ff3f56239a93c4dd153ffd827dae95b27ba57bea3526da73f67eb77b615",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
