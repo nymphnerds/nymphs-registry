@@ -1,5 +1,5 @@
 {
-  "registry_version": 237,
+  "registry_version": 238,
   "updated": "2026-05-29",
   "manager": {
     "id": "nymphscore-manager",
@@ -73,8 +73,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/trellis/main/nymph.json",
-      "manifest_version": "0.1.37",
-      "manifest_hash": "a25e8bbff5229ef6ada9c87a4bb9a55b7b7661d04c7a6625df629bd781762366"
+      "manifest_version": "0.1.38",
+      "manifest_hash": "5c3707280d4133c5d44445e7c7eec2f159338dcd7119426a6abe9f0e088199b1"
     },
     {
       "id": "pixal3d",
@@ -110,8 +110,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/Pixal3D/master/nymph.json",
-      "manifest_version": "0.1.111",
-      "manifest_hash": "5ed467fb4800aca292fdaf5f67b412ff7c8a15a57064511fc228490c32617076"
+      "manifest_version": "0.1.112",
+      "manifest_hash": "18c7def25c31a9797ca262965e30cf16f8d3dd97d47a65fa6276453b36ae215e"
     },
     {
       "id": "brain",
