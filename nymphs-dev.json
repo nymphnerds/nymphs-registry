@@ -1,5 +1,5 @@
 {
-  "registry_version": 4,
+  "registry_version": 5,
   "updated": "2026-05-29",
   "modules": [
     {
@@ -15,8 +15,8 @@
       "channel": "dev",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-world/main/nymph.json",
-      "manifest_version": "0.2.11",
-      "manifest_hash": "623677d81955a7bd40d95341269dddba3b2714ffc8dbd2c12c967499f7b1deb4"
+      "manifest_version": "0.2.12",
+      "manifest_hash": "1a7445876ebccd0aaf4355422c13fbd5825571a7f3bf9da52816cf655c797df3"
     }
   ]
 }
