@@ -4,9 +4,9 @@
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
-    "manifest_version": "0.9.65",
-    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/8b4f7b0/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
-    "artifact_hash": "3554329cbfb4c885eec4eaf0fdb40f272819fdf29ea82d7e137ee36b61a04d2e",
+    "manifest_version": "0.9.66",
+    "artifact_url": "https://raw.githubusercontent.com/nymphnerds/NymphsCore/f3357cd/Manager/apps/NymphsCoreManager/publish/NymphsCoreManager-win-x64.zip",
+    "artifact_hash": "396aef9924936b62b127703014d3446f47fdf59821a02d61a562ce6d1b3b71ae",
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
