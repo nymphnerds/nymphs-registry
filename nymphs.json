@@ -1,6 +1,6 @@
 {
-  "registry_version": 222,
-  "updated": "2026-05-29",
+  "registry_version": 221,
+  "updated": "2026-05-27",
   "manager": {
     "id": "nymphscore-manager",
     "name": "NymphsCore Manager",
@@ -10,22 +10,6 @@
     "source_url": "https://github.com/nymphnerds/NymphsCore"
   },
   "modules": [
-    {
-      "id": "nymphs-world",
-      "name": "Nymphs World",
-      "short_name": "NW",
-      "category": "tool",
-      "kind": "worldbuilding",
-      "packaging": "repo",
-      "summary": "Private development build of the Nymphs World page-first worldbuilding vault.",
-      "install_root": "$HOME/Nymphs-World",
-      "sort_order": 48,
-      "channel": "dev",
-      "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-world/main/nymph.json",
-      "manifest_version": "0.2.10",
-      "manifest_hash": "4f10ab697312626c72ca396e077d94b26c4b3b3e9b623b3590b6fa95140df304"
-    },
     {
       "id": "worbi",
       "name": "WORBI",
