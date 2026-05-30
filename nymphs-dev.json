@@ -1,6 +1,6 @@
 {
-  "registry_version": 6,
-  "updated": "2026-05-29",
+  "registry_version": 7,
+  "updated": "2026-05-30",
   "modules": [
     {
       "id": "nymphs-world",
@@ -17,6 +17,22 @@
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-world/main/nymph.json",
       "manifest_version": "0.2.13",
       "manifest_hash": "059b3a48ff5635eb2f5c33c99f732fb7280b470201964b4aeba125d9813f23eb"
+    },
+    {
+      "id": "nymphs-sprite",
+      "name": "Nymphs Sprite",
+      "short_name": "NS",
+      "category": "image",
+      "kind": "sprite",
+      "packaging": "repo",
+      "summary": "Private development build of the Sprite Foundry-inspired Z-Image Turbo sprite pipeline.",
+      "install_root": "$HOME/Nymphs-Sprite",
+      "sort_order": 25,
+      "channel": "dev",
+      "trusted": true,
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
+      "manifest_version": "0.1.0",
+      "manifest_hash": "8740f19e8994227b8206ff4c63b272ce6bb363a50ea107403ff4e34e91db16ad"
     }
   ]
 }
