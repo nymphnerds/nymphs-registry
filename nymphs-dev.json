@@ -1,5 +1,5 @@
 {
-  "registry_version": 21,
+  "registry_version": 22,
   "updated": "2026-06-05",
   "modules": [
     {
@@ -62,8 +62,8 @@
       "channel": "dev",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/TripoSplat/main/nymph.json",
-      "manifest_version": "0.1.0",
-      "manifest_hash": "ff364a716bc814d3dd7990872e1e886962a79767f2477f2421e89ac69101e932"
+      "manifest_version": "0.1.1",
+      "manifest_hash": "4fa1ce018da1c60e95d26acf5310f2bdac6ea9ef580c006b4eed7a3920919ee5"
     },
     {
       "id": "worbi",
