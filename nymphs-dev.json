@@ -1,5 +1,5 @@
 {
-  "registry_version": 45,
+  "registry_version": 46,
   "updated": "2026-06-06",
   "modules": [
     {
@@ -30,9 +30,9 @@
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/305523faf299c36c76e69212434f9ae90c1b8f35/nymph.json",
-      "manifest_version": "1.2.5",
-      "manifest_hash": "9f094b7e06bb4c5c6b9f4991eaae7c34f4f268028606fa7dfaa09657896cc677"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/159def3fb42c1a0bfde085b06bf8c4eca8a5e39e/nymph.json",
+      "manifest_version": "1.2.6",
+      "manifest_hash": "e944007858f8171946e529b9ecba4738c3391bdc175bda729652831cecadb5fd"
     },
     {
       "id": "lora",
