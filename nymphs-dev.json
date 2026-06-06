@@ -1,6 +1,6 @@
 {
-  "registry_version": 44,
-  "updated": "2026-06-05",
+  "registry_version": 45,
+  "updated": "2026-06-06",
   "modules": [
     {
       "id": "nymphs-world",
@@ -19,20 +19,20 @@
       "manifest_hash": "059b3a48ff5635eb2f5c33c99f732fb7280b470201964b4aeba125d9813f23eb"
     },
     {
-      "id": "nymphs-sprite",
-      "name": "Nymphs Sprite",
-      "short_name": "NS",
+      "id": "sprite-foundry",
+      "name": "Sprite Foundry",
+      "short_name": "SF",
       "category": "image",
-      "kind": "sprite",
+      "kind": "sprite-foundry",
       "packaging": "repo",
-      "summary": "Private development build of the Sprite Foundry-inspired Z-Image Turbo sprite pipeline.",
-      "install_root": "$HOME/Nymphs-Sprite",
+      "summary": "Dev-mode Foundry-native 8-direction sprite generation, review, lifecycle, and export pipeline for NymphsCore.",
+      "install_root": "$HOME/Sprite-Foundry",
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
-      "manifest_version": "0.1.31",
-      "manifest_hash": "7093867a563b273c6df580560dfe06ea6a7052a3122a547ac7da0b86a663f1fb"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/305523faf299c36c76e69212434f9ae90c1b8f35/nymph.json",
+      "manifest_version": "1.2.5",
+      "manifest_hash": "9f094b7e06bb4c5c6b9f4991eaae7c34f4f268028606fa7dfaa09657896cc677"
     },
     {
       "id": "lora",

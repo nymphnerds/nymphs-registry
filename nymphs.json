@@ -1,5 +1,5 @@
 {
-  "registry_version": 258,
+  "registry_version": 259,
   "updated": "2026-06-06",
   "manager": {
     "id": "nymphscore-manager",
@@ -25,22 +25,6 @@
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/zimage/main/nymph.json",
       "manifest_version": "0.1.109",
       "manifest_hash": "c61db11f404b84652290c01da92dcf32fd875d1b53d3b1a1d1d3b2de8b336e74"
-    },
-    {
-      "id": "sprite-foundry",
-      "name": "Sprite Foundry",
-      "short_name": "SF",
-      "category": "image",
-      "kind": "sprite-foundry",
-      "packaging": "repo",
-      "summary": "Foundry-native 8-direction sprite generation, review, lifecycle, and export pipeline for NymphsCore.",
-      "install_root": "$HOME/Sprite-Foundry",
-      "sort_order": 25,
-      "channel": "test",
-      "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/main/nymph.json",
-      "manifest_version": "1.2.4",
-      "manifest_hash": "3d5a539ff5f7efd9a080b625b5734522a3ad0f7cf18b1eecc4aa66e1a5481911"
     },
     {
       "id": "trellis",
