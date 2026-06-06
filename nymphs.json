@@ -1,5 +1,5 @@
 {
-  "registry_version": 254,
+  "registry_version": 255,
   "updated": "2026-06-06",
   "manager": {
     "id": "nymphscore-manager",
@@ -39,8 +39,8 @@
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/main/nymph.json",
-      "manifest_version": "1.2.0",
-      "manifest_hash": "28fd9969f35569202fe973772bed2ec19bfa5ba7838abf215f642f90dde22b40"
+      "manifest_version": "1.2.1",
+      "manifest_hash": "897be505b7334975dfcd7938cf89718f8d561660fd39eb3e310c1b63b7d23647"
     },
     {
       "id": "trellis",
