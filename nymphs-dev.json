@@ -1,6 +1,6 @@
 {
-  "registry_version": 46,
-  "updated": "2026-06-06",
+  "registry_version": 47,
+  "updated": "2026-06-07",
   "modules": [
     {
       "id": "nymphs-world",
@@ -30,9 +30,9 @@
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/159def3fb42c1a0bfde085b06bf8c4eca8a5e39e/nymph.json",
-      "manifest_version": "1.2.6",
-      "manifest_hash": "e944007858f8171946e529b9ecba4738c3391bdc175bda729652831cecadb5fd"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/4e0d94146362de75afbb9c220565f9570d0614bb/nymph.json",
+      "manifest_version": "1.2.7",
+      "manifest_hash": "1f97b0efe303d846f7bf9f8c766986091a58cd9ab779ffd773cbd8f765abe70b"
     },
     {
       "id": "lora",
