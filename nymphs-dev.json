@@ -30,7 +30,7 @@
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/4e0d94146362de75afbb9c220565f9570d0614bb/nymph.json",
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/main/nymph.json",
       "manifest_version": "1.2.7",
       "manifest_hash": "1f97b0efe303d846f7bf9f8c766986091a58cd9ab779ffd773cbd8f765abe70b"
     },
