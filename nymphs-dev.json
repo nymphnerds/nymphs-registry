@@ -1,5 +1,5 @@
 {
-  "registry_version": 50,
+  "registry_version": 51,
   "updated": "2026-06-09",
   "modules": [
     {
@@ -25,14 +25,14 @@
       "category": "image",
       "kind": "sprite",
       "packaging": "repo",
-      "summary": "Dev-mode guided 8/16-direction game sprite generation with local Pose Lab guides, review, lifecycle, and export.",
+      "summary": "Dev-mode guided 8/16-direction game sprite generation with local Pose Lab refs, review, lifecycle, and export.",
       "install_root": "$HOME/Nymphs-Sprite",
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
-      "manifest_version": "1.2.14",
-      "manifest_hash": "76e0c49fda3c7f9678ca8911be7ace3564e0cd7bf430c16fa2c9634f81b25527"
+      "manifest_version": "1.2.15",
+      "manifest_hash": "a7e763f4693d533effa79186836b0c21c0d78e393c9fa49cfe54965ba26df7fa"
     },
     {
       "id": "lora",
