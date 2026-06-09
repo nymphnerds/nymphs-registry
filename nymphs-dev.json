@@ -1,6 +1,6 @@
 {
-  "registry_version": 47,
-  "updated": "2026-06-07",
+  "registry_version": 48,
+  "updated": "2026-06-09",
   "modules": [
     {
       "id": "nymphs-world",
@@ -19,20 +19,20 @@
       "manifest_hash": "059b3a48ff5635eb2f5c33c99f732fb7280b470201964b4aeba125d9813f23eb"
     },
     {
-      "id": "sprite-foundry",
-      "name": "Sprite Foundry",
-      "short_name": "SF",
+      "id": "nymphs-sprite",
+      "name": "Nymphs Sprite",
+      "short_name": "NS",
       "category": "image",
-      "kind": "sprite-foundry",
+      "kind": "sprite",
       "packaging": "repo",
-      "summary": "Dev-mode Foundry-native 8-direction sprite generation, review, lifecycle, and export pipeline for NymphsCore.",
-      "install_root": "$HOME/Sprite-Foundry",
+      "summary": "Dev-mode guided 8-direction game sprite generation, review, lifecycle, and export for NymphsCore.",
+      "install_root": "$HOME/Nymphs-Sprite",
       "sort_order": 25,
       "channel": "dev",
       "trusted": true,
-      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/sprite-foundry/main/nymph.json",
-      "manifest_version": "1.2.7",
-      "manifest_hash": "1f97b0efe303d846f7bf9f8c766986091a58cd9ab779ffd773cbd8f765abe70b"
+      "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
+      "manifest_version": "1.2.9",
+      "manifest_hash": "ab918943834dc7451b14b749d6daf56703b56dfd995723c68e59a98c371dfbb8"
     },
     {
       "id": "lora",
