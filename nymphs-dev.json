@@ -31,8 +31,8 @@
       "channel": "dev",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
-      "manifest_version": "1.2.11",
-      "manifest_hash": "78617283794639132d7f626541e5e84da12bf0dd12070683693f4f0860b5b89a"
+      "manifest_version": "1.2.12",
+      "manifest_hash": "958975b1f355193a4873ba5724263957c596f2257cd784563e4517a95c3a83de"
     },
     {
       "id": "lora",
