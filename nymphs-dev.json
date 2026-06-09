@@ -1,5 +1,5 @@
 {
-  "registry_version": 55,
+  "registry_version": 56,
   "updated": "2026-06-09",
   "modules": [
     {
@@ -31,8 +31,8 @@
       "channel": "dev",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/nymphs-sprite/main/nymph.json",
-      "manifest_version": "1.2.19",
-      "manifest_hash": "e2eac3861ebf88dae018172d35ce699d39431d3ea811c6d6fcb814e91fd3861d"
+      "manifest_version": "1.2.20",
+      "manifest_hash": "66e5eb2ae760bd80614bd1d644d92260b4fad8cee29c01858e647b78501098ec"
     },
     {
       "id": "lora",
