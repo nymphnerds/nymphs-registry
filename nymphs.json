@@ -1,5 +1,5 @@
 {
-  "registry_version": 265,
+  "registry_version": 266,
   "updated": "2026-09-01",
   "manager": {
     "id": "nymphscore-manager",
@@ -84,14 +84,14 @@
       "short_name": "BR",
       "category": "service",
       "packaging": "repo",
-      "summary": "Local assistant, llama-server, Open WebUI, and MCP orchestration stack with direct LLM controls.",
+      "summary": "Local assistant, llama-server, Open WebUI, and MCP orchestration stack with direct LLM controls and safer local start behavior.",
       "install_root": "$HOME/Nymphs-Brain",
       "sort_order": 10,
       "channel": "test",
       "trusted": true,
       "manifest_url": "https://raw.githubusercontent.com/nymphnerds/brain/main/nymph.json",
-      "manifest_version": "0.1.14",
-      "manifest_hash": "5a14f26d8b9ad15736cf8d3dc779ccee37781f4874078336b9cc4c63c85ef553"
+      "manifest_version": "0.1.15",
+      "manifest_hash": "a12e78be30de6f9f10b9b98c61cef08b1b76eb5a82a3e5b7e63c283a2834a971"
     }
   ]
 }
